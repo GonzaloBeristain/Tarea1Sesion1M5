@@ -1,0 +1,19 @@
+create database tarea1
+\c tarea1
+tarea1=# create user gonzalo;
+\l
+\du
+
+   Nombre    |  Due±o   | Codificaci¾n |      Collate       |       Ctype        |      Privilegios
+-------------+----------+--------------+--------------------+--------------------+-----------------------
+ estudiantes | postgres | UTF8         | Spanish_Spain.1252 | Spanish_Spain.1252 |
+ postgres    | postgres | UTF8         | Spanish_Spain.1252 | Spanish_Spain.1252 |
+ tarea1      | postgres | UTF8         | Spanish_Spain.1252 | Spanish_Spain.1252 |
+ template0   | postgres | UTF8         | Spanish_Spain.1252 | Spanish_Spain.1252 | =c/postgres          +
+             |          |              |                    |                    | postgres=CTc/postgres
+ template1   | postgres | UTF8         | Spanish_Spain.1252 | Spanish_Spain.1252 | =c/postgres          +
+             |          |              |                    |                    | postgres=CTc/postgres
+(5 filas)
+
+
+tarea1=#
